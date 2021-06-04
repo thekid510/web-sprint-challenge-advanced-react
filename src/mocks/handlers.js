@@ -8,7 +8,7 @@ const plantsData = [
     difficulty: "easy",
     light: "direct",
     img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/PEPEROMIA_ROSSO-1_800x.png?v=1587156590",
+      "https://cdn.shopify.com/s/files/1/1786/2893/products/PeperomiaRosso_large.png?v=1599233564",
     sizes: ["small"],
     watering: 2,
     description:
