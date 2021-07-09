@@ -11,26 +11,26 @@ test("form header renders", () => {});
     expect (header).toHaveTextContent(/checkout Form/i)
     console.log(header)
 
-test("form shows success message on submit with form details", () => {
-render(<CheckoutForm/>)
+// test("form shows success message on submit with form details", () => {
+// render(<CheckoutForm/>)
 
-const nameInput = screen.getByLabelText(/First Name/i)
-userEvent.type(nameInput, "James");
+//     const nameInput = screen.getByLabelText(/First Name/i)
+//     userEvent.type(nameInput, "James");
 
-const lastNameInput = screen.getByLabelText(/Last Name/i)
-userEvent.type(lastNameInput,"Freund");
+//     const lastNameInput = screen.getByLabelText(/Last Name/i)
+//     userEvent.type(lastNameInput,"Freund");
 
-const cityInput = screen.getByLabelText(/Address/i)
-userEvent.type(cityInput, "Hayward");
+//     const cityInput = screen.getByLabelText(/Address/i)
+//     userEvent.type(cityInput, "Hayward");
 
-const stateInput = screen.getByLabelText(/State/i)
-userEvent.type(stateInput,"CA");
+//     const stateInput = screen.getByLabelText(/State/i)
+//     userEvent.type(stateInput,"CA");
 
-const zipInput = screen.getByLabelText(/Zip/i)
-userEvent.type(zipInput, "94546")
+//     const zipInput = screen.getByLabelText(/Zip/i)
+//     userEvent.type(zipInput, "94546")
 
-const button = screen.getByLabelRole("button");
-userEvent.click(button)
+//     const button = screen.getByLabelRole("button");
+//     userEvent.click(button)
 
 
     

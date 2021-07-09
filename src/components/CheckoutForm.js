@@ -17,9 +17,9 @@ const initialValue = {
 
 const CheckoutForm = () => {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-  const [values, setValues] = useForm({...initialValue})// ['','']
+  const [values, setValues] = useForm(initialValue)// ['','']
 
-  console.log('values: ', values);
+ 
   const handleChanges = (e) => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
